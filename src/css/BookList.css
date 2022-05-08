@@ -1,0 +1,33 @@
+.book_list {
+  display: block;
+  margin: 0 auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 60vh
+}
+
+.order_Select{
+  width: 20vw;
+  position: absolute;
+  left: 75% ;
+  top: 25px;
+}
+
+.sort{
+  position: relative;
+  height: 7vh;
+}
+
+.sort_label {
+  position: absolute;
+  top: 1px;
+  left: 75%;
+}
+
+li:hover{
+  background: lightgray ;
+}
+
+.error {
+  color: red;
+}
